@@ -1,0 +1,1 @@
+export default { content: ['./index.html', './src/**/*.{ts,tsx}'], darkMode: 'class', theme: { extend: { colors: { navy: '#16202e', accent: '#e8890c' } } }, plugins: [] };

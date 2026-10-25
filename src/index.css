@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  body { @apply bg-slate-50 text-slate-900 dark:bg-slate-900 dark:text-slate-100; }
+  option { @apply bg-white text-slate-900 dark:bg-slate-800 dark:text-slate-100; }
+  :focus-visible { outline: 2px solid #e8890c; outline-offset: 2px; }
+  input, select, textarea { min-height: 2rem; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+}
+@media print { nav, header, [role='search'], .no-print { display: none !important; } }
