@@ -61,7 +61,7 @@ export default function Layout() {
   }, []);
 
   return (
-    <div className="flex min-h-screen flex-col md:flex-row">
+       <div className="flex min-h-screen flex-col overflow-x-clip md:flex-row">
       <a
         href="#main"
         className="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:bg-white focus:p-2"
